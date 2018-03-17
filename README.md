@@ -1,10 +1,12 @@
 # Deep Learning for Music Classification using Keras
 
 (c) 2018 by
-* Alexander Schindler, AIT Austrian Institute of Technology
-  http://ifs.tuwien.ac.at/%7Eschindler/
-* Thomas Lidy, Musimap
-  http://ifs.tuwien.ac.at/~lidy
+
+**Alexander Schindler**, AIT Austrian Institute of Technology<br>
+http://ifs.tuwien.ac.at/~schindler
+  
+**Thomas Lidy**, Musimap<br>
+http://ifs.tuwien.ac.at/~lidy
 
 # Abstract
 
