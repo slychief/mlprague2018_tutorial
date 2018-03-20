@@ -4,7 +4,7 @@
 
 **Alexander Schindler**, AIT Austrian Institute of Technology<br>
 http://ifs.tuwien.ac.at/~schindler
-  
+
 **Thomas Lidy**, Musimap<br>
 http://ifs.tuwien.ac.at/~lidy
 
@@ -15,3 +15,83 @@ Deep Learning has re-entered the field of Machine Learning with a big bang. Task
 # Code and Data Availability
 
 Dear workshop participants. The code and data for this workshop will be made available for download on Wednesday, March 21, 2018.
+
+# Tutorial Requiremnets
+
+For the tutorials, we use iPython / Jupyter notebook, which allows to program and execute Python code interactively in the browser.
+
+### Viewing Only
+
+If you do not want to install anything, you can simply view the tutorials' content in your browser, by clicking on the tutorial's filenames listed below in the GIT file listing (above, resp. on https://github.com/... ).
+
+The tutorial will open in your browser for viewing.
+
+### Interactive Coding
+
+If you want to follow the Tutorials by actually executing the code on your computer, please [install first the pre-requisites](#installation-of-pre-requisites) as described below.
+
+After that, to run the tutorials go into the `mlprague2018_tutorial` folder and start from the command line:
+
+`jupyter notebook`
+
+
+# Installation of Pre-requisites
+
+## Install Python 2.7
+
+Note: On most Mac and Linux systems Python is already pre-installed. Check with `python --version` on the command line whether you have Python 2.7.x installed.
+
+Otherwise install Python 2.7 from https://www.python.org/download/releases/2.7/
+
+## Install Python libraries:
+
+### Mac, Linux or Windows
+
+(on Windows leave out `sudo`)
+
+```
+sudo pip install jupyter
+```
+
+Try if you can open 
+```
+jupyter notebook
+```
+on the command line. 
+
+Then download or clone the Tutorials from this GIT repository:
+
+```
+git clone https://github.com/slychief/mlprague2018_tutorial.git
+```
+or download https://github.com/slychief/mlprague2018_tutorial/archive/master.zip <br/>
+unzip it and rename the folder to `mlprague2018_tutorial`.
+
+Install the remaining Python libraries needed:
+
+Either by:
+
+```
+sudo pip install Keras==2.1.5 Tensorflow scikit-learn pandas librosa
+```
+
+or, if you downloaded or cloned this repository, by:
+
+```
+cd mlprague2018_tutorial
+sudo pip install -r requirements.txt
+```
+
+
+
+### Check if installed correctly
+
+To check whether Python, Keras and Theano were installed correctly, do:
+
+`
+python test_keras.py
+`
+
+If everything is installed correctly, it should print `Using Theano backend.`<br/>
+If the GPU is configured correctly, it should also print `Using gpu device 0: GeForce GTX 980 Ti` or similar.
+
