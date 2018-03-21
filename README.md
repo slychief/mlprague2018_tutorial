@@ -82,16 +82,41 @@ cd mlprague2018_tutorial
 sudo pip install -r requirements.txt
 ```
 
+### Optional for GPU computation
+
+If you want to train your neural networks on your GPU, also install the following (not needed for the tutorials):
+
+* [NVidia drivers](http://www.nvidia.com/Download/index.aspx?lang=en-us)
+* [CUDA](https://developer.nvidia.com/cuda-downloads)
+* [cuDNN](https://developer.nvidia.com/cudnn) (optional, for further speedup)
+
+# Source Credits
+
+## Python libraries
+
+The following helper Python libraries are used in these tutorials:
+
+* `image_preprocessing.py`: by Thomas Lidy and Alexander Schindler
+* `audiofile_read.py` and `rp_extract.py`: by Thomas Lidy and Alexander Schindler, taken from the [RP_extract](https://github.com/tuwien-musicir/rp_extract) git repository
+* `wavio.py`: by Warren Weckesser
+
+## Data Sources
+
+The data sets we use in the tutorials are from the following sources: (a copy is included in this repository, so no need to download them)
+
+* Music Speech Data Set:
+by George Tzanetakis
+Collected for the purposes of music/speech discrimination. Consists of 128 tracks, each 30 seconds long. Each class (music/speech) has 64 examples in 22050Hz Mono 16-bit WAV audio format.
+http://marsyasweb.appspot.com/download/data_sets/
+
+### Prepared Datasets for Download
+
+**MagnaTagAtune**
+
+https://owncloud.tuwien.ac.at/index.php/s/c2VEkev4YvLgUYu (608MB)
 
 
-### Check if installed correctly
+**GTZAN Music Speech Classification**
 
-To check whether Python, Keras and Theano were installed correctly, do:
-
-`
-python test_keras.py
-`
-
-If everything is installed correctly, it should print `Using Theano backend.`<br/>
-If the GPU is configured correctly, it should also print `Using gpu device 0: GeForce GTX 980 Ti` or similar.
+https://owncloud.tuwien.ac.at/index.php/s/JiBXUPZK9LImTHB (145MB)
 
