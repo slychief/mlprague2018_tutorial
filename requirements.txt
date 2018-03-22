@@ -4,7 +4,7 @@ tensorflow
 # in this case you HAVE TO also install:
 # CUDA 9.0: from https://developer.nvidia.com/cuda-90-download-archive
 # CUDNN: from https://developer.nvidia.com/cudnn - Login required!
-scikit-learn=>0.18
+scikit-learn>=0.18
 pandas
 librosa
 matplotlib
