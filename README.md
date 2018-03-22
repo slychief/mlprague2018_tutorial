@@ -113,7 +113,7 @@ http://marsyasweb.appspot.com/download/data_sets/
 
 **MagnaTagAtune**
 
-https://owncloud.tuwien.ac.at/index.php/s/c2VEkev4YvLgUYu (608MB)
+https://owncloud.tuwien.ac.at/index.php/s/hivOGXKoUQtacbo (332MB)
 
 
 **GTZAN Music Speech Classification**
