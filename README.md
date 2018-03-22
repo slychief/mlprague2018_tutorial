@@ -6,7 +6,7 @@
 http://ifs.tuwien.ac.at/~schindler
 
 **Thomas Lidy**, Musimap<br>
-http://ifs.tuwien.ac.at/~lidy
+https://www.linkedin.com/in/thomaslidy/
 
 # Abstract
 
@@ -16,7 +16,7 @@ Deep Learning has re-entered the field of Machine Learning with a big bang. Task
 
 Dear workshop participants. The code and data for this workshop will be made available for download on Wednesday, March 21, 2018.
 
-# Tutorial Requiremnets
+# Tutorial Requirements
 
 For the tutorials, we use iPython / Jupyter notebook, which allows to program and execute Python code interactively in the browser.
 
