@@ -37,11 +37,11 @@ After that, to run the tutorials go into the `mlprague2018_tutorial` folder and 
 
 # Installation of Pre-requisites
 
-## Install Python 2.7
+## Install Python 3.x
 
 Note: On most Mac and Linux systems Python is already pre-installed. Check with `python --version` on the command line whether you have Python 2.7.x installed.
 
-Otherwise install Python 2.7 from https://www.python.org/download/releases/2.7/
+Otherwise install Python 3.5 from https://www.python.org/downloads/release/python-350/
 
 ## Install Python libraries:
 
