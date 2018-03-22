@@ -72,7 +72,7 @@ Install the remaining Python libraries needed:
 Either by:
 
 ```
-sudo pip install Keras==2.1.5 Tensorflow scikit-learn pandas librosa
+sudo pip install Keras>=2.1.1 tensorflow scikit-learn>=0.18 pandas librosa spotipy matplotlib
 ```
 
 or, if you downloaded or cloned this repository, by:
@@ -84,11 +84,18 @@ sudo pip install -r requirements.txt
 
 ### Optional for GPU computation
 
-If you want to train your neural networks on your GPU, also install the following (not needed for the tutorials):
+If you want to train your neural networks on your GPU (which is faster, but not necessarily needed for this tutorial),
+you have to install the specific GPU version of Tensorflow:
+
+```
+sudo pip install tensorflow-gpu
+```
+
+and also install the following (not needed for the tutorials):
 
 * [NVidia drivers](http://www.nvidia.com/Download/index.aspx?lang=en-us)
 * [CUDA](https://developer.nvidia.com/cuda-downloads)
-* [cuDNN](https://developer.nvidia.com/cudnn) (optional, for further speedup)
+* [cuDNN](https://developer.nvidia.com/cudnn) (requires registration with Nvidia)
 
 # Source Credits
 
@@ -96,27 +103,29 @@ If you want to train your neural networks on your GPU, also install the followin
 
 The following helper Python libraries are used in these tutorials:
 
-* `image_preprocessing.py`: by Thomas Lidy and Alexander Schindler
-* `audiofile_read.py` and `rp_extract.py`: by Thomas Lidy and Alexander Schindler, taken from the [RP_extract](https://github.com/tuwien-musicir/rp_extract) git repository
+* `audiofile_read.py` and `audio_spectrogram.py`: by Thomas Lidy and Alexander Schindler, taken from the [RP_extract](https://github.com/tuwien-musicir/rp_extract) git repository
 * `wavio.py`: by Warren Weckesser
 
 ## Data Sources
 
-The data sets we use in the tutorials are from the following sources: (a copy is included in this repository, so no need to download them)
+The data sets we use in the tutorials are from the following sources:
 
-* Music Speech Data Set:
+* GTZAN Music Speech:
 by George Tzanetakis
 Collected for the purposes of music/speech discrimination. Consists of 128 tracks, each 30 seconds long. Each class (music/speech) has 64 examples in 22050Hz Mono 16-bit WAV audio format.
 http://marsyasweb.appspot.com/download/data_sets/
 
+* MagnaTagAtune:
+http://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset
+
+
 ### Prepared Datasets for Download
-
-**MagnaTagAtune**
-
-https://owncloud.tuwien.ac.at/index.php/s/hivOGXKoUQtacbo (332MB)
-
 
 **GTZAN Music Speech Classification**
 
 https://owncloud.tuwien.ac.at/index.php/s/JiBXUPZK9LImTHB (145MB)
+
+**MagnaTagAtune**
+
+https://owncloud.tuwien.ac.at/index.php/s/hivOGXKoUQtacbo (332MB)
 
