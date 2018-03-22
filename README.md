@@ -12,9 +12,33 @@ https://www.linkedin.com/in/thomaslidy/
 
 Deep Learning has re-entered the field of Machine Learning with a big bang. Tasks that were difficult and cumbersome to solve are now simple to implement and achieve amazingly high accuracies. Deep Learning has shown substantial impact recently also in the domain of audio recognition and music classification. This tutorial will give a general introduction to Neural Networks, Convolutional Neural Networks, plus important concepts such as (batch-)normalization, training epochs, activation, loss, optimization, pooling, dropout, model fine-tuning, etc. and a tutorial on how to apply all of this on tasks of audio and music recognition using the convenient Python Keras framework on top of Tensorflow. It will use T-SNE for visualization and also cover unsupervised learning.
 
-# Code and Data Availability
+# Tutorial Outline
 
-Dear workshop participants. The code and data for this workshop will be made available for download on Wednesday, March 21, 2018.
+**Part 1 - Deep Learning Basics**
+  * Audio Processing Basics, 
+  * History of Neural Networks
+  * What is Deep Learning
+  * Neural Network Concepts
+  * Coding Examples
+
+**Part 2 - Convolutional Neural Networks**
+  * Difference CNN – RNN
+  * How CNNs work (Layers, Filters, Pooling)
+  * Application Domains and how to use in Music
+  * Coding Examples
+
+**Part 3 - Instrumental, Genre and Mood Analysis**
+  * Large-scale Music AI at Musimap
+  * Instrumental vs. Vocal Detection
+  * Genre Recognition
+  * Mood Detection
+  * Coding Examples
+
+**Part 4 - Advanced Deep Learning**
+  * Similarity Retrieval
+  * Siamese Networks
+  * Learning Audio Representation from Tag Similarity
+  * Coding Examples
 
 # Tutorial Requirements
 
