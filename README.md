@@ -117,7 +117,7 @@ you have to install the specific GPU version of Tensorflow:
 sudo pip install tensorflow-gpu
 ```
 
-and also install the following (not needed for the tutorials):
+and also install the following:
 
 * [NVidia drivers](http://www.nvidia.com/Download/index.aspx?lang=en-us)
 * [CUDA](https://developer.nvidia.com/cuda-downloads)
