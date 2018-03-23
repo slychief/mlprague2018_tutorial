@@ -73,6 +73,8 @@ Otherwise install Python 3.5 from https://www.python.org/downloads/release/pytho
 
 (on Windows leave out `sudo`)
 
+Important note: If you have Python 2.x and 3.x installed in parallel, replace `pip` by `pip3` in the following commands:
+
 ```
 sudo pip install jupyter
 ```
@@ -121,6 +123,31 @@ and also install the following (not needed for the tutorials):
 * [CUDA](https://developer.nvidia.com/cuda-downloads)
 * [cuDNN](https://developer.nvidia.com/cudnn) (requires registration with Nvidia)
 
+
+## Install Audio Decoder
+
+In order to decode MP3 files (used in the MagnaTagAtune data set) you will need to install FFMpeg on your system.
+
+* Linux: `sudo apt-get install ffmpeg`
+* Mac: download FFMPeg for Mac: http://ffmpegmac.net and make sure ffmpeg is on PATH
+* Windows: download https://github.com/tuwien-musicir/rp_extract/blob/master/bin/external/win/ffmpeg.exe and make sure it is on the PATH
+
+
+## Download Prepared Datasets
+
+Please download the following data sets for this tutorial:
+
+**GTZAN Music Speech Classification**
+
+https://owncloud.tuwien.ac.at/index.php/s/JiBXUPZK9LImTHB (145MB)
+
+**MagnaTagAtune**
+
+https://owncloud.tuwien.ac.at/index.php/s/hivOGXKoUQtacbo (332MB)
+
+These are prepared versions from the original datasets described below.
+
+
 # Source Credits
 
 ## Python libraries
@@ -141,15 +168,3 @@ http://marsyasweb.appspot.com/download/data_sets/
 
 * MagnaTagAtune:
 http://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset
-
-
-### Prepared Datasets for Download
-
-**GTZAN Music Speech Classification**
-
-https://owncloud.tuwien.ac.at/index.php/s/JiBXUPZK9LImTHB (145MB)
-
-**MagnaTagAtune**
-
-https://owncloud.tuwien.ac.at/index.php/s/hivOGXKoUQtacbo (332MB)
-
