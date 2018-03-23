@@ -133,8 +133,7 @@ In order to decode MP3 files (used in the MagnaTagAtune data set) you will need 
 * Windows: download https://github.com/tuwien-musicir/rp_extract/blob/master/bin/external/win/ffmpeg.exe and make sure it is on the PATH
 
 
-
-### Prepared Datasets for Download
+## Download Prepared Datasets
 
 Please download the following data sets for this tutorial:
 
