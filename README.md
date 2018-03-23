@@ -15,7 +15,7 @@ Deep Learning has re-entered the field of Machine Learning with a big bang. Task
 # Tutorial Outline
 
 **Part 1 - Deep Learning Basics**
-  * Audio Processing Basics, 
+  * Audio Processing Basics
   * History of Neural Networks
   * What is Deep Learning
   * Neural Network Concepts
@@ -46,13 +46,13 @@ For the tutorials, we use iPython / Jupyter notebook, which allows to program an
 
 ### Viewing Only
 
-If you do not want to install anything, you can simply view the tutorials' content in your browser, by clicking on the tutorial's filenames listed below in the GIT file listing (above, resp. on https://github.com/... ).
+If you do not want to install anything, you can simply view the tutorials' content in your browser, by clicking on the tutorial's filenames listed above in the GIT file listing.
 
-The tutorial will open in your browser for viewing.
+The tutorials will open in your browser for viewing.
 
 ### Interactive Coding
 
-If you want to follow the Tutorials by actually executing the code on your computer, please [install first the pre-requisites](#installation-of-pre-requisites) as described below.
+If you want to follow the tutorials by actually executing the code on your computer, please [install first the pre-requisites](#installation-of-pre-requisites) as described below.
 
 After that, to run the tutorials go into the `mlprague2018_tutorial` folder and start from the command line:
 
@@ -63,7 +63,7 @@ After that, to run the tutorials go into the `mlprague2018_tutorial` folder and 
 
 ## Install Python 3.x
 
-Note: On most Mac and Linux systems Python is already pre-installed. Check with `python --version` on the command line whether you have Python 2.7.x installed.
+Note: On most Mac and Linux systems Python is already pre-installed. Check with `python --version` on the command line whether you have Python 3.x installed.
 
 Otherwise install Python 3.5 from https://www.python.org/downloads/release/python-350/
 
@@ -76,7 +76,7 @@ Otherwise install Python 3.5 from https://www.python.org/downloads/release/pytho
 Important note: If you have Python 2.x and 3.x installed in parallel, replace `pip` by `pip3` in the following commands:
 
 ```
-sudo pip install jupyter
+sudo pip install --upgrade jupyter
 ```
 
 Try if you can open 
