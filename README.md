@@ -3,10 +3,12 @@
 (c) 2018 by
 
 **Alexander Schindler**, AIT Austrian Institute of Technology<br>
-http://ifs.tuwien.ac.at/~schindler
+Website: http://ifs.tuwien.ac.at/~schindler - Twitter: https://twitter.com/Slychief
 
 **Thomas Lidy**, Musimap<br>
-https://www.linkedin.com/in/thomaslidy/
+Website: https://www.linkedin.com/in/thomaslidy/ - Twitter: https://twitter.com/LidyTom
+
+also visit: https://www.meetup.com/Vienna-Deep-Learning-Meetup
 
 # Abstract
 
