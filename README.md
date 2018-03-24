@@ -3,10 +3,12 @@
 (c) 2018 by
 
 **Alexander Schindler**, AIT Austrian Institute of Technology<br>
-Website: http://ifs.tuwien.ac.at/~schindler - Twitter: https://twitter.com/Slychief
+Website: http://ifs.tuwien.ac.at/~schindler<br>
+Twitter: https://twitter.com/Slychief
 
 **Thomas Lidy**, Musimap<br>
-Website: https://www.linkedin.com/in/thomaslidy/ - Twitter: https://twitter.com/LidyTom
+Website: https://www.linkedin.com/in/thomaslidy/<br>
+Twitter: https://twitter.com/LidyTom
 
 also visit: https://www.meetup.com/Vienna-Deep-Learning-Meetup
 
@@ -16,31 +18,30 @@ Deep Learning has re-entered the field of Machine Learning with a big bang. Task
 
 # Tutorial Outline
 
-**Part 1 - Deep Learning Basics** [Slides](./Tutorial Slides/Part 1 - Basics of digital audio and deep learning.pdf)
-  * Audio Processing Basics
+**Part 1 - Deep Learning Basics** ([Slides](https://github.com/slychief/mlprague2018_tutorial/blob/master/Tutorial%20Slides/Part%201%20-%20Basics%20of%20digital%20audio%20and%20deep%20learning.pdf))
+  * Audio Processing Basics ([Jupyter Notebook](https://github.com/slychief/mlprague2018_tutorial/blob/master/Part%201a%20-%20Audio%20Basics.ipynb))
   * History of Neural Networks
   * What is Deep Learning
   * Neural Network Concepts
-  * Coding Examples
+  * Coding Examples ([Jupyter Notebook](https://github.com/slychief/mlprague2018_tutorial/blob/master/Part%201b%20-%20Deep%20Learning%20Basics.ipynb))
 
-**Part 2 - Convolutional Neural Networks**
+**Part 2 - Convolutional Neural Networks** ([Slides](https://github.com/slychief/mlprague2018_tutorial/blob/master/Tutorial%20Slides/Part%202%20-%20Introduction%20to%20CNNs.pdf))
   * Difference CNN – RNN
   * How CNNs work (Layers, Filters, Pooling)
   * Application Domains and how to use in Music
-  * Coding Examples
+  * Coding Examples ([Jupyter Notebook](https://github.com/slychief/mlprague2018_tutorial/blob/master/Part%202%20-%20Music%20speech%20classification.ipynb))
 
-**Part 3 - Instrumental, Genre and Mood Analysis**
+**Part 3 - Instrumental, Genre and Mood Analysis** ([Slides](https://github.com/slychief/mlprague2018_tutorial/blob/master/Tutorial%20Slides/Part%203%20-%20Music%20AI%20at%20Musimap.pdf))
   * Large-scale Music AI at Musimap
   * Instrumental vs. Vocal Detection
   * Genre Recognition
   * Mood Detection
-  * Coding Examples
+  * Coding Examples ([Jupyter Notebook](https://github.com/slychief/mlprague2018_tutorial/blob/master/Part%203%20-%20Instrumental%20-%20Genre%20-%20Mood%20detection.ipynb))
 
 **Part 4 - Advanced Deep Learning**
-  * Similarity Retrieval
-  * Siamese Networks
-  * Learning Audio Representation from Tag Similarity
-  * Coding Examples
+  * Similarity Retrieval ([Jupyter Notebook](https://github.com/slychief/mlprague2018_tutorial/blob/master/Part%204a%20-%20Distance%20Based%20Search.ipynb))
+  * Siamese Networks ([Jupyter Notebook](https://github.com/slychief/mlprague2018_tutorial/blob/master/Part%204b%20-%20Siamese%20Networks.ipynb))
+  * Learning Audio Representation from Tag Similarity ([Jupyter Notebook](https://github.com/slychief/mlprague2018_tutorial/blob/master/Part%204c%20-%20Siamese%20Networks%20with%20Tag%20Similarity.ipynb))
 
 # Tutorial Requirements
 
