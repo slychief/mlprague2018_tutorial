@@ -16,7 +16,7 @@ Deep Learning has re-entered the field of Machine Learning with a big bang. Task
 
 # Tutorial Outline
 
-**Part 1 - Deep Learning Basics**
+**Part 1 - Deep Learning Basics** [Slides](./Tutorial Slides/Part 1 - Basics of digital audio and deep learning.pdf)
   * Audio Processing Basics
   * History of Neural Networks
   * What is Deep Learning
