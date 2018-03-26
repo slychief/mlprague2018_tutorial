@@ -151,23 +151,16 @@ https://owncloud.tuwien.ac.at/index.php/s/hivOGXKoUQtacbo (332MB)
 These are prepared versions from the original datasets described below.
 
 
-# Source Credits
-
-## Python libraries
+# Credits
 
 The following helper Python libraries are used in these tutorials:
 
 * `audiofile_read.py` and `audio_spectrogram.py`: by Thomas Lidy and Alexander Schindler, taken from the [RP_extract](https://github.com/tuwien-musicir/rp_extract) git repository
 * `wavio.py`: by Warren Weckesser
 
-## Data Sources
-
 The data sets we use in the tutorials are from the following sources:
 
-* GTZAN Music Speech:
-by George Tzanetakis
-Collected for the purposes of music/speech discrimination. Consists of 128 tracks, each 30 seconds long. Each class (music/speech) has 64 examples in 22050Hz Mono 16-bit WAV audio format.
-http://marsyasweb.appspot.com/download/data_sets/
+* GTZAN Music Speech: http://marsyasweb.appspot.com/download/data_sets/
+* MagnaTagAtune: http://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset
 
-* MagnaTagAtune:
-http://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset
+(don't download them from there but use the prepared datasets from the two owncloud links above)
